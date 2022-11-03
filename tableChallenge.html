@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Challenge</title>
+    <style>
+        table, td, th {
+        border: 4px solid rgb(154, 255, 2);
+        border-collapse: collapse;
+        height: 4vh;
+        width: 50vw;
+        border-collapse: collapse;
+        } 
+        td {
+        padding: 10px;
+        text-align: center; 
+        }
+        table{
+            margin: 100px 100px;
+        }
+        body{
+            font-weight: 900;
+            background-color: beige;
+        }
+    </style>
+
+</head>
+<body>
+    <table>
+        <tr>
+            <td rowspan="2">State of Health</td>
+            <td colspan="2" style="text-align: center" >Fasting Value</td>
+            <td>After Eating</td>
+        </tr>
+
+        <tr>
+            <!-- <td>&nbsp</td> -->
+            <td>Minimum</td>
+            <td>Maximum</td>
+            <td>2 hours after eating</td>
+        </tr>
+
+        <tr>
+            <td>Healthy</td>
+            <td>70</td>
+            <td>100</td>
+            <td>Less than 140</td>
+        </tr>
+
+        <tr>
+            <td>Pre-Diabetes</td>
+            <td>101</td>
+            <td>126</td>
+            <td>140 to 200</td>
+        </tr>
+
+        <tr>
+            <td>Diabetes</td>
+            <td>More than 126</td>
+            <td>N/A</td>
+            <td>More than 200</td>
+        </tr>
+    </table>
+</body>
+</html>
